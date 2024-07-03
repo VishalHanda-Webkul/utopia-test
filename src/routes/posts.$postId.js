@@ -67,7 +67,6 @@ export default function PostForId() {
       >
         {name}
       </span>
-
       <div
         style={{
           height: 600,
@@ -98,11 +97,7 @@ export default function PostForId() {
           {date}
         </div>
       </div>
-      <div
-        style={{
-          width: '100%',
-        }}
-      >
+      <div style={{ width: '100%' }}>
         <div
           style={{
             fontFamily: 'var(--secondary)',

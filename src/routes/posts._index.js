@@ -24,7 +24,7 @@ export default function Posts() {
         transition: 'all 0.5s ease-out',
       }}
     >
-      <Title title={'BBeffore I Go'} />
+      <Title title='BBeffore I Go' />
       <CategoryFilters />
       {activities.map(
         ({

@@ -24,17 +24,32 @@ export default function Index() {
         transition: 'all 3s ease-out',
       }}
     >
-      <Title title={'BBeffore I Go'} />
+      <Title
+        title='BBeffore I Go'
+        style={{
+          width: 1068,
+          height: 159,
+          position: 'absolute',
+          left: 186,
+          top: 601,
+          opacity: '12%',
+        }}
+      />
       <div
         style={{
           background: '#dd4a76',
-          width: '80%',
+          width: 667,
           height: 80,
           display: 'flex',
           flexDirection: 'row',
           alignItems: 'center',
           justifyContent: 'center',
           borderRadius: 100,
+          contain: 'layout',
+          position: 'absolute',
+          left: -38,
+          top: 658,
+          backgroundColor: 'rgba(236, 229, 179, 0)',
         }}
       >
         <Link
@@ -54,6 +69,53 @@ export default function Index() {
         >
           Things I want to do
         </Link>
+      </div>
+      <Link
+        style={{
+          wordBreak: 'break-word',
+          color: 'var(--off-white)',
+          contain: 'layout',
+          fontWeight: 700,
+          fontFamily: 'var(--secondary)',
+          fontSize: '28px',
+          textTransform: 'uppercase',
+          textAlign: 'center',
+          width: 528,
+          height: 385,
+          position: 'absolute',
+          left: 69,
+          top: 12,
+        }}
+        to='/posts'
+      >
+        Things I want to do
+      </Link>
+      <div
+        style={{
+          backgroundColor: '#aaaaaa33',
+          width: 648,
+          height: 674,
+          contain: 'layout',
+          position: 'absolute',
+          left: 82,
+          top: 64,
+          color: 'rgb(180, 39, 39, 1)',
+          border: '10px solid rgb(201, 55, 55, 1)',
+        }}
+      >
+        <span
+          style={{
+            position: 'absolute',
+            wordBreak: 'break-word',
+            left: 261,
+            top: 54,
+            width: 93,
+            height: 19,
+            color: 'rgb(59, 24, 175, 1)',
+          }}
+        >
+          WEBKUL !!
+        </span>
       </div>
     </div>
   )
