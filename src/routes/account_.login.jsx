@@ -97,8 +97,8 @@ export default function Index() {
           height: 674,
           contain: 'layout',
           position: 'absolute',
-          left: 82,
-          top: 64,
+          left: 72,
+          top: 36,
           color: 'rgb(180, 39, 39, 1)',
           border: '10px solid rgb(201, 55, 55, 1)',
         }}
@@ -107,8 +107,8 @@ export default function Index() {
           style={{
             position: 'absolute',
             wordBreak: 'break-word',
-            left: 261,
-            top: 54,
+            left: 211,
+            top: 196,
             width: 93,
             height: 19,
             color: 'rgb(59, 24, 175, 1)',
@@ -116,6 +116,31 @@ export default function Index() {
         >
           WEBKUL !!
         </span>
+        <div
+          style={{
+            backgroundColor: '#aaaaaa33',
+            position: 'absolute',
+            left: 86,
+            top: 251,
+            width: 508,
+            height: 774,
+            fontSize: '50px',
+            color: 'rgb(245, 31, 31, 1)',
+          }}
+        >
+          <span
+            style={{
+              position: 'absolute',
+              wordBreak: 'break-word',
+              left: 87,
+              top: 264,
+              width: 346,
+              height: 418,
+            }}
+          >
+            niodadaijdlsjldjasljdlaskjdlasldjlasjlkdlkasjddddddddd
+          </span>
+        </div>
       </div>
     </div>
   )

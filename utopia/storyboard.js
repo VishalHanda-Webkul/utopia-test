@@ -9,8 +9,8 @@ export var storyboard = (
         position: 'absolute',
         width: 834,
         height: 1328,
-        left: 8,
-        top: -24,
+        left: -58,
+        top: -52,
         overflow: 'hidden',
       }}
       data-label='Mood Board'
